@@ -1,0 +1,10 @@
+<div class="container">
+  <p class="lead">{{calcolatrice.getOperazione()}}</p>
+  <p class="lead">{{calcolatrice.getRisultato()}}</p>
+<div class="row">
+  <div class="col-sm-3">
+    <button class="btn-primary" (click)="calcolatrice.setOperazione(1)">1</button>
+    <button class="btn-primary" (click)="calcolatrice.setOperazione('+')">+</button>
+    <button class="btn-primary" (click)="calcolatrice.getRisultato('=')">=</button>
+  </div>
+</div>
